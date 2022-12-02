@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello World QQ</title>
+    <style>
+    </style>
+    
+</head>
+    <body>
+    <P style="color:rgb(221, 221, 23);font: size 16px;">Hi MyFriend</P>
+    <h2 style="color:red">Nice to meet You</h2>
+    <p>QQ</p>
+    <h2>JJ</h2>
+    <p>Batman</p>
+    <script>
+    //test();
+    /*console.log(typeof 'hello');//網頁F12主控
+    console.log(typeof 1234);
+    console.log(typeof true);
+    var V='';
+    if(V)
+        alert("True"); 
+    else
+        alert("False");*/
+
+        function test()
+{ 
+    alert ('Good Morning!'+'\tMyFriend')
+};
+
+    var rnd=parseInt(Math.random()*100)+1;
+    var guess=0;
+    while(rnd != guess)
+    {
+        guess= prompt("Guess 1~100:");
+        
+        if(guess>rnd)
+            alert(guess+" too big");
+        else if(guess<rnd)
+            alert(guess + " too small");
+        else
+        {
+            alert("Bingo");
+            break;
+        }
+    }
+    
+    </script>
+    </body>
+
+</html>
